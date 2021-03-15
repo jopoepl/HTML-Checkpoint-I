@@ -216,3 +216,86 @@ hr {
     
     border: 2px solid black;
 }
+
+
+/*Blog Page Styling*/
+
+.blog {
+    text-align: center;
+}
+
+.blogcontainer1 {
+    margin: 0 auto;
+    width: 950px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+img {
+    height: 300px;
+    width: 460px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.blogconttext1 {
+    height: 300px;
+    width: 460px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.readmore { 
+    text-align: center;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(2, 161, 2);
+    border: transparent solid 1px;
+    border-radius: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    color: white;
+}
+
+.blogcontainer2 {
+    width: 950px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.5;
+
+}
+
+.blogincont1 {
+    height: 600px;
+    width: 460px;
+
+}
+
+.blogincont2 {
+    height: 600px;
+    width: 460px;
+}
+
+.learnmore {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+
+
